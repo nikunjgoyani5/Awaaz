@@ -1,0 +1,33 @@
+{
+    "show_ads": true,
+    "home_screen_ads": true,
+    "other_ads_with_counter": true,
+    "user_click_counter": 1,
+    "splashInterstitialId": "ca-app-pub-3940256099942544/1033173712",
+    "ads_data": {
+        "splash_open_app": {
+            "adsName": "splash_open_app",
+            "adsType": "openapp",
+            "idAds": "ca-app-pub-3940256099942544/9257395921",
+            "enableAds": true
+        },
+        "background_open_app": {
+            "adsName": "background_open_app",
+            "adsType": "openapp",
+            "idAds": "ca-app-pub-3940256099942544/9257395921",
+            "enableAds": true
+        },
+        "news_screen_native": {
+            "adsName": "news_screen_native",
+            "adsType": "native",
+            "idAds": "ca-app-pub-3940256099942544/2247696110",
+            "enableAds": true
+        },
+        "news_details_screen_banner": {
+            "adsName": "news_screen_native",
+            "adsType": "banner",
+            "idAds": "ca-app-pub-3940256099942544/9214589741",
+            "enableAds": true
+        }
+    }
+}

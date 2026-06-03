@@ -1,0 +1,5 @@
+Awaaz IMP details :
+
+keystore : key0
+jsk : awaaz.jks
+password : awaazapp

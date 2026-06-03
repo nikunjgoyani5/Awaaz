@@ -1,0 +1,2 @@
+D:/Pravesh Shiyani/AawajApp/android/app/.cxx/RelWithDebInfo/116x4h6t/x86/CMakeFiles/edit_cache.dir
+D:/Pravesh Shiyani/AawajApp/android/app/.cxx/RelWithDebInfo/116x4h6t/x86/CMakeFiles/rebuild_cache.dir

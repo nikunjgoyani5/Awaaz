@@ -1,0 +1,2 @@
+D:/Pravesh Shiyani/AawajApp/android/app/.cxx/Debug/361k273e/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Pravesh Shiyani/AawajApp/android/app/.cxx/Debug/361k273e/armeabi-v7a/CMakeFiles/rebuild_cache.dir
