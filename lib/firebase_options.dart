@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBQTb-94Ezx9TKwlOpp1KZHuFfGZRd-VVs',
-    appId: '1:552605622755:web:0ac893af41eaad029780d6',
-    messagingSenderId: '552605622755',
-    projectId: 'aawaj-52af1',
-    authDomain: 'aawaj-52af1.firebaseapp.com',
-    storageBucket: 'aawaj-52af1.firebasestorage.app',
-    measurementId: 'G-VPQMZ3SKX9',
+      apiKey: "AIzaSyCI8n08uzrsk_4L7-ipvaa4y7PLJzuj89k",
+      authDomain: "eagle-eye-oprator.firebaseapp.com",
+      projectId: "eagle-eye-oprator",
+      storageBucket: "eagle-eye-oprator.firebasestorage.app",
+      messagingSenderId: "1086312563652",
+      appId: "1:1086312563652:web:090170d09ceceeb0b15a91",
+      measurementId: "G-WTRVEYKMG1"
+
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBCE_wtj0GL0FB8ipFFAMWry0RQh1tklqs',
-    appId: '1:552605622755:android:bcc20d97f18992d39780d6',
-    messagingSenderId: '552605622755',
-    projectId: 'aawaj-52af1',
-    storageBucket: 'aawaj-52af1.firebasestorage.app',
+    apiKey: 'AIzaSyCUVqUmqNKouTQmUJp2swhy0-VSqj-2g2k',
+    appId: '1:1086312563652:android:9deee97e2ecf4c81b15a91',
+    messagingSenderId: '1086312563652',
+    projectId: 'eagle-eye-oprator',
+    storageBucket: 'eagle-eye-oprator.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCKdeHOaw7NvtT10o8wLGf_4zOkN1vxKoo',
-    appId: '1:552605622755:ios:4e5f56bb0b9d36df9780d6',
-    messagingSenderId: '552605622755',
-    projectId: 'aawaj-52af1',
-    storageBucket: 'aawaj-52af1.firebasestorage.app',
-    iosBundleId: 'com.eagle.eye.avaz.eagleEye',
+    apiKey: 'AIzaSyClFuAibcd035ejKDsoGH4t7T3thrYb8SY',
+    appId: '1:1086312563652:ios:92a11174e0ab616cb15a91',
+    messagingSenderId: '1086312563652',
+    projectId: 'eagle-eye-oprator',
+    storageBucket: 'eagle-eye-oprator.firebasestorage.app',
+    iosBundleId: 'com.example.eagleEyeAdmin',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCKdeHOaw7NvtT10o8wLGf_4zOkN1vxKoo',
-    appId: '1:552605622755:ios:4e5f56bb0b9d36df9780d6',
-    messagingSenderId: '552605622755',
-    projectId: 'aawaj-52af1',
-    storageBucket: 'aawaj-52af1.firebasestorage.app',
-    iosBundleId: 'com.eagle.eye.avaz.eagleEye',
+    apiKey: 'AIzaSyClFuAibcd035ejKDsoGH4t7T3thrYb8SY',
+    appId: '1:1086312563652:ios:92a11174e0ab616cb15a91',
+    messagingSenderId: '1086312563652',
+    projectId: 'eagle-eye-oprator',
+    storageBucket: 'eagle-eye-oprator.firebasestorage.app',
+    iosBundleId: 'com.example.eagleEyeAdmin',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBQTb-94Ezx9TKwlOpp1KZHuFfGZRd-VVs',
-    appId: '1:552605622755:web:856d2964dbf73e549780d6',
-    messagingSenderId: '552605622755',
-    projectId: 'aawaj-52af1',
-    authDomain: 'aawaj-52af1.firebaseapp.com',
-    storageBucket: 'aawaj-52af1.firebasestorage.app',
-    measurementId: 'G-8E1MKLWW3N',
+    apiKey: 'AIzaSyCI8n08uzrsk_4L7-ipvaa4y7PLJzuj89k',
+    appId: '1:1086312563652:web:c5c1932e7ee0ef95b15a91',
+    messagingSenderId: '1086312563652',
+    projectId: 'eagle-eye-oprator',
+    authDomain: 'eagle-eye-oprator.firebaseapp.com',
+    storageBucket: 'eagle-eye-oprator.firebasestorage.app',
+    measurementId: 'G-WHCPB3PXBM',
   );
 }

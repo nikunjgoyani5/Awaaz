@@ -2,82 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Awaaz</string>
+	<string>Eagle Eye Admin</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>3.0</string>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>eagle_eye_admin</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>io.Branch.Branchsters</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>branchsters</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.552605622755-to68uu8qgtoscld6b9r08jj9n8dtgp4b</string>
-			</array>
-		</dict>
-	</array>
 	<key>CFBundleVersion</key>
-	<string>4</string>
-	<key>FlutterDeepLinkingEnabled</key>
-	<false/>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
-	<key>GIDClientID</key>
-	<string>552605622755-to68uu8qgtoscld6b9r08jj9n8dtgp4b.apps.googleusercontent.com</string>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-	<true/>
-	<key>MBXAccessToken</key>
-	<string>$(MAPBOX_ACCESS_TOKEN)</string>
-	<key>NSCameraUsageDescription</key>
-	<string>We need access to your camera to capture live video of events or incidents and capture a profile picture.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We use your location to provide real-time updates on nearby events within a 10 km radius, helping you stay informed about what's happening around you while you're using the app.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We use your location to send you live updates on events within a 10 km radius, even when the app is in the background. This helps us keep you informed about what's happening near you, no matter where you are.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need access to your location while you're using the app to provide real-time updates on nearby events and activities within a 10 km radius.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>We need access to your microphone to enable audio recording while capturing videos in the app.</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>We need access to your photo library to save and upload your profile picture or other images to the app.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We need access to your photo library to allow you to upload or update your profile picture.</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>We collect your name and email to personalize your experience and keep you updated with relevant news. We may track your activity within the app to improve content delivery and enhance the user experience. This allows us to show real-time updates, your data is always securely stored, and we will never share it with third parties without your consent.</string>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
-	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -96,23 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIUserNotificationUsageDescription</key>
-	<string>We send notifications to keep you updated with real-time news, events, and alerts based on your location and preferences.</string>
-	<key>branch_disable_nativelink</key>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
-	<key>branch_key</key>
-	<dict>
-		<key>live</key>
-		<string>key_live_kukWZadosBODIh3gtYdjYcpcADlT7VsE</string>
-		<key>test</key>
-		<string>key_test_oyp94mngyCUBHn1ku2iDogflwsnQ0GER</string>
-	</dict>
-	<key>branch_universal_link_domains</key>
-	<array>
-		<string>awaazeye.app.link</string>
-		<string>awaazeye-alternate.app.link</string>
-		<string>9axzf.test-app.link</string>
-		<string>9axzf-alternate.test-app.link</string>
-	</array>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 </dict>
 </plist>

@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.eagle.eye.avaz" "\0"
-            VALUE "FileDescription", "eagle_eye" "\0"
+            VALUE "CompanyName", "com.example" "\0"
+            VALUE "FileDescription", "eagle_eye_admin" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "eagle_eye" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.eagle.eye.avaz. All rights reserved." "\0"
-            VALUE "OriginalFilename", "eagle_eye.exe" "\0"
-            VALUE "ProductName", "eagle_eye" "\0"
+            VALUE "InternalName", "eagle_eye_admin" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "eagle_eye_admin.exe" "\0"
+            VALUE "ProductName", "eagle_eye_admin" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

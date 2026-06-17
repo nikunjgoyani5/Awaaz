@@ -1,21 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="$FLUTTER_BASE_HREF">
-
+  <meta name="google-signin-client_id" content="1086312563652-peu6sr39o54kor55b99h3bl220g1lj2q.apps.googleusercontent.com" />
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -23,16 +10,74 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="eagle_eye">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="eagle_eye_admin">
+  <link rel="apple-touch-icon" href="icons/icon_192x192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="icons/icon_32x32.png"/>
 
-  <title>eagle_eye</title>
+  <!-- Permissions Policy -->
+  <meta http-equiv="Permissions-Policy" content="geolocation=(self), microphone=(), camera=(), fullscreen=*">
+
+<!--  <title>eagle_eye_admin</title>-->
+  <title id="page-title">Awaaz Operator</title>
+  <meta property="og:title" content="Awaaz Operator" id="meta-title"/>
+
+  <meta property="og:description" content="Welcome to the operator of Awaaz App">
+  <meta name="description" content="Welcome to the operator of Awaaz App">
+<!--  <meta name="autocomplete" content="on">-->
   <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDKs -->
+<!--  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>-->
+<!--  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-messaging.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging-compat.js"></script>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+  apiKey: "AIzaSyCI8n08uzrsk_4L7-ipvaa4y7PLJzuj89k",
+  authDomain: "eagle-eye-oprator.firebaseapp.com",
+  projectId: "eagle-eye-oprator",
+  storageBucket: "eagle-eye-oprator.firebasestorage.app",
+  messagingSenderId: "1086312563652",
+  appId: "1:1086312563652:web:090170d09ceceeb0b15a91",
+  measurementId: "G-WTRVEYKMG1"`
+};
+    firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase Messaging
+    const messaging = firebase.messaging();
+
+    // Request permission for notifications
+    function requestNotificationPermission() {
+      Notification.requestPermission().then((permission) => {
+        if (permission === "granted") {
+          console.log("Notification permission granted.");
+        } else {
+          console.log("Notification permission denied.");
+        }
+      });
+    }
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/firebase-messaging-sw.js')
+        .then((registration) => {
+          console.log("Service Worker registered:", registration);
+        }).catch((error) => {
+          console.error("Service Worker registration failed:", error);
+        });
+    }
+  </script>
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+<script src="flutter_bootstrap.js" async></script>
+
+<script type="text/javascript">
+  window.flutterWebRenderer = "html";
+</script>
+
+<!--<button onclick="requestNotificationPermission()">Enable Notifications</button> -->
+
 </body>
 </html>

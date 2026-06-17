@@ -10,12 +10,9 @@
 class FontFamily {
   FontFamily._();
 
-  /// Font family: alice
-  static const String alice = 'alice';
+  /// Font family: Arvo
+  static const String arvo = 'Arvo';
 
-  /// Font family: roboto
-  static const String roboto = 'roboto';
-
-  /// Font family: test_tiempos_headline
-  static const String testTiemposHeadline = 'test_tiempos_headline';
+  /// Font family: Poppins
+  static const String poppins = 'Poppins';
 }

@@ -1,4 +1,4 @@
-# eagle_eye
+# eagle_eye_admin
 
 A new Flutter project.
 
@@ -16,13 +16,5 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-Build runner command
-dart run build_runner build
-flutter pub run build_runner build
-
-Branch.IO config
-When app live that time must check android manifest.xml file <meta-data android:name="io.branch.sdk.TestMode" android:value="false" /> always false.
-
-also check firebase crash record or not.
-Correct code : 
-if (isLiveMode) { 
+==> image show karva mate 
+flutter build web --web-renderer html --release

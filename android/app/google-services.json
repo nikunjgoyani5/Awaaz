@@ -1,83 +1,26 @@
 {
   "project_info": {
-    "project_number": "552605622755",
-    "project_id": "aawaj-52af1",
-    "storage_bucket": "aawaj-52af1.firebasestorage.app"
+    "project_number": "1086312563652",
+    "project_id": "eagle-eye-oprator",
+    "storage_bucket": "eagle-eye-oprator.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:552605622755:android:77dd695ea01fc4b99780d6",
+        "mobilesdk_app_id": "1:1086312563652:android:9deee97e2ecf4c81b15a91",
         "android_client_info": {
-          "package_name": "com.awaazeye.cityalerts"
+          "package_name": "com.oprator.eagle_eye_aawaz"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "552605622755-25fggtqi58sa9to4hon1q0rm52tcr36u.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.awaazeye.cityalerts",
-            "certificate_hash": "f7ecdf6b3a622fa07c48d142340fb75de581e710"
-          }
-        },
-        {
-          "client_id": "552605622755-305bgvpcodtut25rob89tb244g60dlbb.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.awaazeye.cityalerts",
-            "certificate_hash": "08e68f90723df97d751ed81e9db3d96e0e4d778b"
-          }
-        },
-        {
-          "client_id": "552605622755-d7nu1lqtnjeq1qnro16p34k69qfttk9l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.awaazeye.cityalerts",
-            "certificate_hash": "c36c5d54dbb93c71e09fc42e86deaa983fd41e55"
-          }
-        },
-        {
-          "client_id": "552605622755-gc3k4n8aatd5g4u2b1qft9jpnv8ns4fu.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.awaazeye.cityalerts",
-            "certificate_hash": "e0a7fff038076d23381590c76e149bc02a4dde00"
-          }
-        },
-        {
-          "client_id": "552605622755-ka6d5dl54llv5phdogo8203fgn35sqe2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.awaazeye.cityalerts",
-            "certificate_hash": "4599094df0e56d708ee1ac55b0d1d61855f26e1e"
-          }
-        },
-        {
-          "client_id": "552605622755-11j1hmjlg0bo0mr4ffj5q5hc1m0o0j5e.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBCE_wtj0GL0FB8ipFFAMWry0RQh1tklqs"
+          "current_key": "AIzaSyCUVqUmqNKouTQmUJp2swhy0-VSqj-2g2k"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "552605622755-11j1hmjlg0bo0mr4ffj5q5hc1m0o0j5e.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "552605622755-ij292btckn1jnt26o9n4hviubtcpv2b6.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.eagle.eye.avaz.eagleEye"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
