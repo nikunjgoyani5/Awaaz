@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Awaaz - News Page
 
-## Getting Started
+Next.js public news/event share site for **Awaaz Eye**. Shared incident links open at `/{eventId}` with media, title, description, and social preview metadata.
 
-First, run the development server:
+Repository: `https://github.com/nikunjgoyani5/Awaaz.git`  
+Branch: `news_page`
+
+For architecture, API integration, SEO behavior, and branch notes, see `TECHNICAL_HANDOVER.md`.
+
+## Stack
+
+- Next.js 15 (Pages Router)
+- React 19
+- Axios (event data from Awaaz Eye API)
+- react-slick / slick-carousel (media carousel)
+
+## Quick start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+View an event (replace with a valid event ID):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http://localhost:3000/{eventId}
+```
 
-## Learn More
+The home route (`/`) shows a "News Not Found!!!" placeholder.
 
-To learn more about Next.js, take a look at the following resources:
+## Routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Route | Purpose |
+|-------|---------|
+| `/` | Placeholder home page |
+| `/[id]` | Event/news detail page (SSR + optional client fetch) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## External API
 
-## Deploy on Vercel
+Event data is loaded from `https://awaazeye.com/api/v1/event-post/event/{id}` (hardcoded in `pages/[id].js`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Development server |
+| `npm run build` | Production build |
+| `npm start` | Serve production build |
+| `npm run lint` | Next.js lint |
+
+## Documentation
+
+- `TECHNICAL_HANDOVER.md` - full handover document
+
+## Related branches (same repository)
+
+| Branch | Purpose |
+|--------|---------|
+| `news_page` | This simplified news share site (current) |
+| `landing-page` | Richer incident landing UI (timeline, nearby events, Swiper) |
+| `flutter_mobile_app` | Mobile app (not in this checkout) |
+| `awaaz_admin_web_app` | Admin web app (not in this checkout) |
+| `main` | Default branch |
